@@ -11,7 +11,7 @@
 
         <source-file src="src/android/VersionChecker.java" target-dir="src/com/example/versionchecker" />
 
-<resource-file src="src/android/build.gradle" target="app/build.gradle" />
+  <hook type="after_prepare" src="scripts/add-jsoup-hook.js" />
     </platform>
 
     <platform name="ios">
