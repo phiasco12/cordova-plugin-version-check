@@ -1,0 +1,9 @@
+// File: src/android/build.gradle
+
+repositories {
+    mavenCentral() // Ensure Maven Central is available to pull JSoup
+}
+
+dependencies {
+    implementation 'org.jsoup:jsoup:1.13.1'  // Include the JSoup library
+}
